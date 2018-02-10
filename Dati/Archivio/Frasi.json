@@ -1,0 +1,37 @@
+{
+    "impostazioni":{
+        "ingresso menu": "Cosa vuoi modificare?",
+        "saluto":"Ciaenvenuto in Meteotrentino Bot!",
+        "posizione":"Per inviarti previsioni meteo corrette vorrei sapere la tua posizione, inviamela tramite GPS o digita qui il tuo comune di residenza",
+        "posizione_impostata":"Tutto ok, ho acquisito la tua posizione!",
+        "posizione_errore":[
+            "Non riesco a capire dove sei, ricordo che questo bot funziona solo in Trentino, in caso di problemi prova con l'impostazione manuale.",
+            "Comune non riconosciuto, ricordo che accetto solo nomi di comuni (non di frazioni)."
+        ],
+        "nome":"Un'ultima domanda: come ti chiami?",
+        "completamento":"Impostazioni completate, puoi cominciare a usare i servizi di Meteotrentino Bot!",
+        "cancella account":"%s confermando questa informazione dimenticherò tutte le tue preferenze e se vorrai tornare ad usarmi dovrai configurarmi da capo, sei sicuro di voler procedere?",
+        "cancella account ris":[
+            "Ok, farò finta di non aver sentito",
+            "D'accordo, tutti i dati relativi alle tue preferenze saranno cancellati, arrivederci %s"
+        ],
+        "abbonamento":"Vuoi ricevere ogni tre giorni un messaggio con le previsioni aggiornate per la tua zona?",
+        "abbonamento ris":[
+            "D'accordo, se ci ripensi sai dove trovarmi!",
+            "L'abbonamento è attivato!"
+        ]
+    },
+    "principale":"Ciao %s,\ncosa posso fare per te oggi?",
+    "invio_previsione":{
+        "previsione_singola":"%s\n%s\nMinime: %d°C Massime: %d°C",
+        "Richiesta posizione":"Di che Comune desideri conoscere la previsioni?",
+        "Richiesta posizione errore":"Comune non riconosciuto, sei sicuro che quello che mi hai scritto sia il nome di un Comune? (e non di una frazione ad esempio)",
+        "invia":"Previsioni per la zona di %s\n",
+        "abbonamento":"Ciao %s ecco le previsioni per i prossimi tre giorni:\n\n"
+    },
+    "admin":{
+        "Errore password":"Codice non riconosciuto! Ti rimangono ancora %d tentativi per inviare un codice corretto o il tuo account verrà limitato",
+        "Token valido":"Codice valido! Il tuo account è stato promosso ad admin, ricordati di proteggere il tuo telefono con un PIN per evitare abusi del sistema da parte di terzi.",
+        "Account limitato":"Hai sbagliato troppi tentativi, ora il tuo account verrà limitato e non potrai più inserire codici per la promozione ad amministratore. Se tentavi di inserire un codice valido o vuoi richiedere lo sblocco scrivi a emisandri@outlook.it ."
+    }
+}
