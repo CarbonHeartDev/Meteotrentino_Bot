@@ -1,0 +1,1071 @@
+[
+  {
+    "latitude": 45.762564,
+    "longitude": 11.005173,
+    "name": "Ala",
+    "IDr":0
+  },
+  {
+    "latitude": 46.144362,
+    "longitude": 11.194111,
+    "name": "Albiano",
+    "IDr":1
+  },
+  {
+    "latitude": 45.980672,
+    "longitude": 11.091379,
+    "name": "Aldeno",
+    "IDr":2
+  },
+  {
+    "latitude": 46.180683,
+    "longitude": 11.23315,
+    "name": "Altavalle",
+    "IDr":6
+  },
+  {
+    "latitude": 45.963775,
+    "longitude": 11.193277,
+    "name": "Altopiano della Vigolana",
+    "IDr":11
+  },
+  {
+    "latitude": 46.395557,
+    "longitude": 11.147259,
+    "name": "Amblar-Don",
+    "IDr":15
+  },
+  {
+    "latitude": 46.164137,
+    "longitude": 11.002407,
+    "name": "Andalo",
+    "IDr":16
+  },
+  {
+    "latitude": 45.917861,
+    "longitude": 10.885576,
+    "name": "Arco",
+    "IDr":17
+  },
+  {
+    "latitude": 45.732779,
+    "longitude": 10.939799,
+    "name": "Avio",
+    "IDr":19
+  },
+  {
+    "latitude": 46.131489,
+    "longitude": 11.246595,
+    "name": "Baselga di Pinè",
+    "IDr":22
+  },
+  {
+    "latitude": 46.164742,
+    "longitude": 11.300591,
+    "name": "Bedollo",
+    "IDr":25
+  },
+  {
+    "latitude": 45.940902,
+    "longitude": 11.112212,
+    "name": "Besenello",
+    "IDr":28
+  },
+  {
+    "latitude": 46.080402,
+    "longitude": 11.554354,
+    "name": "Bieno",
+    "IDr":30
+  },
+  {
+    "latitude": 46.014715,
+    "longitude": 10.796901,
+    "name": "Bleggio Superiore",
+    "IDr":32
+  },
+  {
+    "latitude": 46.119529,
+    "longitude": 10.759798,
+    "name": "Bocenago",
+    "IDr":33
+  },
+  {
+    "latitude": 45.806313,
+    "longitude": 10.550976,
+    "name": "Bondone",
+    "IDr":37
+  },
+  {
+    "latitude": 46.052805,
+    "longitude": 11.462606,
+    "name": "Borgo Valsugana",
+    "IDr":40
+  },
+  {
+    "latitude": 44.113915,
+    "longitude": 8.031912,
+    "name": "Borgo Chiese",
+    "IDr":38
+  },
+  {
+    "latitude": 46.034337,
+    "longitude": 10.749486,
+    "name": "Borgo Lares",
+    "IDr":39
+  },
+  {
+    "latitude": 45.817127,
+    "longitude": 10.949557,
+    "name": "Brentonico",
+    "IDr":43
+  },
+  {
+    "latitude": 46.410646,
+    "longitude": 10.966422,
+    "name": "Bresimo",
+    "IDr":44
+  },
+  {
+    "latitude": 46.43105,
+    "longitude": 11.107007,
+    "name": "Brez",
+    "IDr":45
+  },
+  {
+    "latitude": 46.129418,
+    "longitude": 10.756789,
+    "name": "Caderzone Terme",
+    "IDr":48
+  },
+  {
+    "latitude": 46.394565,
+    "longitude": 11.041308,
+    "name": "Cagnò",
+    "IDr":49
+  },
+  {
+    "latitude": 46.00328,
+    "longitude": 11.244401,
+    "name": "Calceranica al Lago",
+    "IDr":51
+  },
+  {
+    "latitude": 46.365537,
+    "longitude": 10.938774,
+    "name": "Caldes",
+    "IDr":52
+  },
+  {
+    "latitude": 45.991445,
+    "longitude": 11.262122,
+    "name": "Caldonazzo",
+    "IDr":53
+  },
+  {
+    "latitude": 45.007068,
+    "longitude": 8.254988,
+    "name": "Calliano",
+    "IDr":54
+  },
+  {
+    "latitude": 46.477716,
+    "longitude": 11.741218,
+    "name": "Campitello di Fassa",
+    "IDr":55
+  },
+  {
+    "latitude": 46.258327,
+    "longitude": 11.032847,
+    "name": "Campodenno",
+    "IDr":57
+  },
+  {
+    "latitude": 46.156129,
+    "longitude": 11.731504,
+    "name": "Canal San Bovo",
+    "IDr":58
+  },
+  {
+    "latitude": 46.476778,
+    "longitude": 11.770365,
+    "name": "Canazei",
+    "IDr":59
+  },
+  {
+    "latitude": 46.263117,
+    "longitude": 11.338186,
+    "name": "Capriana",
+    "IDr":62
+  },
+  {
+    "latitude": 46.292136,
+    "longitude": 11.440759,
+    "name": "Carano",
+    "IDr":63
+  },
+  {
+    "latitude": 46.167276,
+    "longitude": 10.756866,
+    "name": "Carisolo",
+    "IDr":64
+  },
+  {
+    "latitude": 46.070134,
+    "longitude": 11.493592,
+    "name": "Carzano",
+    "IDr":65
+  },
+  {
+    "latitude": 45.914611,
+    "longitude": 10.602321,
+    "name": "Castel Condino",
+    "IDr":66
+  },
+  {
+    "latitude": 46.069304,
+    "longitude": 11.521159,
+    "name": "Castel Ivano",
+    "IDr":67
+  },
+  {
+    "latitude": 46.453388,
+    "longitude": 11.116506,
+    "name": "Castelfondo",
+    "IDr":68
+  },
+  {
+    "latitude": 46.060929,
+    "longitude": 11.634599,
+    "name": "Castello Tesino",
+    "IDr":70
+  },
+  {
+    "latitude": 46.282247,
+    "longitude": 11.435177,
+    "name": "Castello-Molina di Fiemme",
+    "IDr":69
+  },
+  {
+    "latitude": 46.05191,
+    "longitude": 11.494133,
+    "name": "Castelnuovo",
+    "IDr":71
+  },
+  {
+    "latitude": 46.291202,
+    "longitude": 11.460566,
+    "name": "Cavalese",
+    "IDr":73
+  },
+  {
+    "latitude": 46.407092,
+    "longitude": 11.136868,
+    "name": "Cavareno",
+    "IDr":74
+  },
+  {
+    "latitude": 46.18362,
+    "longitude": 11.028348,
+    "name": "Cavedago",
+    "IDr":75
+  },
+  {
+    "latitude": 45.993104,
+    "longitude": 10.975435,
+    "name": "Cavedine",
+    "IDr":76
+  },
+  {
+    "latitude": 46.368035,
+    "longitude": 10.957505,
+    "name": "Cavizzana",
+    "IDr":77
+  },
+  {
+    "latitude": 46.160233,
+    "longitude": 11.188078,
+    "name": "Cembra Lisignago",
+    "IDr":78
+  },
+  {
+    "latitude": 45.978507,
+    "longitude": 11.067622,
+    "name": "Cimone",
+    "IDr":102
+  },
+  {
+    "latitude": 46.056495,
+    "longitude": 11.615108,
+    "name": "Cinte Tesino",
+    "IDr":103
+  },
+  {
+    "latitude": 40.959812,
+    "longitude": 14.481065,
+    "name": "Cis",
+    "IDr":104
+  },
+  {
+    "latitude": 46.088489,
+    "longitude": 11.180418,
+    "name": "Civezzano",
+    "IDr":105
+  },
+  {
+    "latitude": 46.364508,
+    "longitude": 11.035505,
+    "name": "Cles",
+    "IDr":106
+  },
+  {
+    "latitude": 46.416488,
+    "longitude": 11.084705,
+    "name": "Cloz",
+    "IDr":107
+  },
+  {
+    "latitude": 46.041393,
+    "longitude": 10.88367,
+    "name": "Comano Terme",
+    "IDr":112
+  },
+  {
+    "latitude": 46.322019,
+    "longitude": 10.839583,
+    "name": "Commezzadura",
+    "IDr":113
+  },
+  {
+    "latitude": 46.284075,
+    "longitude": 11.036521,
+    "name": "Contà",
+    "IDr":116
+  },
+  {
+    "latitude": 46.343301,
+    "longitude": 10.901674,
+    "name": "Croviana",
+    "IDr":120
+  },
+  {
+    "latitude": 46.300336,
+    "longitude": 11.446369,
+    "name": "Daiano",
+    "IDr":122
+  },
+  {
+    "latitude": 46.405469,
+    "longitude": 11.092998,
+    "name": "Dambel",
+    "IDr":123
+  },
+  {
+    "latitude": 46.274682,
+    "longitude": 11.048146,
+    "name": "Denno",
+    "IDr":126
+  },
+  {
+    "latitude": 46.298418,
+    "longitude": 10.866375,
+    "name": "Dimaro Folgarida",
+    "IDr":127
+  },
+  {
+    "latitude": 45.970821,
+    "longitude": 10.945666,
+    "name": "Drena",
+    "IDr":130
+  },
+  {
+    "latitude": 45.960367,
+    "longitude": 10.910197,
+    "name": "Dro",
+    "IDr":131
+  },
+  {
+    "latitude": 46.192566,
+    "longitude": 11.161868,
+    "name": "Faedo",
+    "IDr":132
+  },
+  {
+    "latitude": 46.178282,
+    "longitude": 11.069331,
+    "name": "Fai della Paganella",
+    "IDr":133
+  },
+  {
+    "latitude": 46.00375,
+    "longitude": 10.842347,
+    "name": "Fiavè",
+    "IDr":135
+  },
+  {
+    "latitude": 46.111119,
+    "longitude": 11.318572,
+    "name": "Fierozzo",
+    "IDr":137
+  },
+  {
+    "latitude": 45.915712,
+    "longitude": 11.171807,
+    "name": "Folgaria",
+    "IDr":139
+  },
+  {
+    "latitude": 46.436546,
+    "longitude": 11.140137,
+    "name": "Fondo",
+    "IDr":141
+  },
+  {
+    "latitude": 46.117901,
+    "longitude": 11.207213,
+    "name": "Fornace",
+    "IDr":143
+  },
+  {
+    "latitude": 46.089663,
+    "longitude": 11.297549,
+    "name": "Frassilongo",
+    "IDr":144
+  },
+  {
+    "latitude": 46.002056,
+    "longitude": 11.085532,
+    "name": "Garniga Terme",
+    "IDr":147
+  },
+  {
+    "latitude": 46.155879,
+    "longitude": 11.152455,
+    "name": "Giovo",
+    "IDr":520
+  },
+  {
+    "latitude": 46.143299,
+    "longitude": 10.769437,
+    "name": "Giustino",
+    "IDr":151
+  },
+  {
+    "latitude": 46.016989,
+    "longitude": 11.631237,
+    "name": "Grigno",
+    "IDr":154
+  },
+  {
+    "latitude": 46.150495,
+    "longitude": 11.793818,
+    "name": "Imer",
+    "IDr":160
+  },
+  {
+    "latitude": 45.886734,
+    "longitude": 11.009006,
+    "name": "Isera",
+    "IDr":161
+  },
+  {
+    "latitude": 46.057088,
+    "longitude": 11.533671,
+    "name": "Ivano-Fracena",
+    "IDr":67
+  },
+  {
+    "latitude": 45.939413,
+    "longitude": 11.274574,
+    "name": "Lavarone",
+    "IDr":168
+  },
+  {
+    "latitude": 46.140842,
+    "longitude": 11.112494,
+    "name": "Lavis",
+    "IDr":170
+  },
+  {
+    "latitude": 45.876536,
+    "longitude": 10.732148,
+    "name": "Ledro",
+    "IDr":172
+  },
+  {
+    "latitude": 46.013024,
+    "longitude": 11.29776,
+    "name": "Levico Terme",
+    "IDr":173
+  },
+  {
+    "latitude": 46.403111,
+    "longitude": 11.01971,
+    "name": "Livo",
+    "IDr":175
+  },
+  {
+    "latitude": 46.143304,
+    "longitude": 11.220704,
+    "name": "Lona-Lases",
+    "IDr":180
+  },
+  {
+    "latitude": 45.922122,
+    "longitude": 11.322682,
+    "name": "Luserna",
+    "IDr":181
+  },
+  {
+    "latitude": 46.046469,
+    "longitude": 10.953981,
+    "name": "Madruzzo",
+    "IDr":183
+  },
+  {
+    "latitude": 46.352982,
+    "longitude": 10.912914,
+    "name": "Malè",
+    "IDr":185
+  },
+  {
+    "latitude": 46.436455,
+    "longitude": 11.145214,
+    "name": "Malosco",
+    "IDr":190
+  },
+  {
+    "latitude": 46.140417,
+    "longitude": 10.773043,
+    "name": "Massimeno",
+    "IDr":197
+  },
+  {
+    "latitude": 46.457308,
+    "longitude": 11.699612,
+    "name": "Mazzin",
+    "IDr":199
+  },
+  {
+    "latitude": 46.317667,
+    "longitude": 10.801199,
+    "name": "Mezzana",
+    "IDr":202
+  },
+  {
+    "latitude": 46.154741,
+    "longitude": 11.808243,
+    "name": "Mezzano",
+    "IDr":203
+  },
+  {
+    "latitude": 46.215344,
+    "longitude": 11.119918,
+    "name": "Mezzocorona",
+    "IDr":204
+  },
+  {
+    "latitude": 46.214003,
+    "longitude": 11.096787,
+    "name": "Mezzolombardo",
+    "IDr":205
+  },
+  {
+    "latitude": 46.37642,
+    "longitude": 11.6616,
+    "name": "Moena",
+    "IDr":207
+  },
+  {
+    "latitude": 46.141734,
+    "longitude": 10.965146,
+    "name": "Molveno",
+    "IDr":209
+  },
+  {
+    "latitude": 45.851389,
+    "longitude": 10.978786,
+    "name": "Mori",
+    "IDr":227
+  },
+  {
+    "latitude": 45.877824,
+    "longitude": 10.890852,
+    "name": "Nago-Torbole",
+    "IDr":228
+  },
+  {
+    "latitude": 46.16674,
+    "longitude": 11.108146,
+    "name": "Nave San Rocco",
+    "IDr":230
+  },
+  {
+    "latitude": 45.91491,
+    "longitude": 11.022841,
+    "name": "Nogaredo",
+    "IDr":231
+  },
+  {
+    "latitude": 45.929691,
+    "longitude": 11.067229,
+    "name": "Nomi",
+    "IDr":232
+  },
+  {
+    "latitude": 46.023621,
+    "longitude": 11.36877,
+    "name": "Novaledo",
+    "IDr":233
+  },
+  {
+    "latitude": 46.044477,
+    "longitude": 11.554925,
+    "name": "Ospedaletto",
+    "IDr":234
+  },
+  {
+    "latitude": 46.307842,
+    "longitude": 10.735551,
+    "name": "Ossana",
+    "IDr":235
+  },
+  {
+    "latitude": 46.130438,
+    "longitude": 11.34162,
+    "name": "Palù del Fersina",
+    "IDr":237
+  },
+  {
+    "latitude": 46.286754,
+    "longitude": 11.538165,
+    "name": "Panchià",
+    "IDr":239
+  },
+  {
+    "latitude": 46.36278,
+    "longitude": 10.673533,
+    "name": "Peio",
+    "IDr":260
+  },
+  {
+    "latitude": 46.311398,
+    "longitude": 10.758427,
+    "name": "Pellizzano",
+    "IDr":261
+  },
+  {
+    "latitude": 46.087643,
+    "longitude": 10.724535,
+    "name": "Pelugo",
+    "IDr":262
+  },
+  {
+    "latitude": 46.06174,
+    "longitude": 11.23696,
+    "name": "Pergine Valsugana",
+    "IDr":263
+  },
+  {
+    "latitude": 45.941422,
+    "longitude": 10.641392,
+    "name": "Pieve di Bono-Prezzo",
+    "IDr":264
+  },
+  {
+    "latitude": 46.067704,
+    "longitude": 11.612773,
+    "name": "Pieve Tesino",
+    "IDr":266
+  },
+  {
+    "latitude": 46.15977,
+    "longitude": 10.765027,
+    "name": "Pinzolo",
+    "IDr":267
+  },
+  {
+    "latitude": 45.924539,
+    "longitude": 11.048454,
+    "name": "Pomarolo",
+    "IDr":269
+  },
+  {
+    "latitude": 46.062245,
+    "longitude": 10.712245,
+    "name": "Porte di Rendena",
+    "IDr":271
+  },
+  {
+    "latitude": 46.430689,
+    "longitude": 11.685717,
+    "name": "Pozza di Fassa",
+    "IDr":272
+  },
+  {
+    "latitude": 46.320666,
+    "longitude": 11.101169,
+    "name": "Predaia",
+    "IDr":275
+  },
+  {
+    "latitude": 46.312589,
+    "longitude": 11.602437,
+    "name": "Predazzo",
+    "IDr":276
+  },
+  {
+    "latitude": 46.261764,
+    "longitude": 11.800218,
+    "name": "Primiero San Martino di Castrozza",
+    "IDr":280
+  },
+  {
+    "latitude": 46.399206,
+    "longitude": 10.84863,
+    "name": "Rabbi",
+    "IDr":284
+  },
+  {
+    "latitude": 46.391689,
+    "longitude": 11.058712,
+    "name": "Revò",
+    "IDr":287
+  },
+  {
+    "latitude": 45.889198,
+    "longitude": 10.84307,
+    "name": "Riva del Garda",
+    "IDr":382
+  },
+  {
+    "latitude": 46.395487,
+    "longitude": 11.06431,
+    "name": "Romallo",
+    "IDr":383
+  },
+  {
+    "latitude": 46.391923,
+    "longitude": 11.116992,
+    "name": "Romeno",
+    "IDr":385
+  },
+  {
+    "latitude": 46.054296,
+    "longitude": 11.37783,
+    "name": "Roncegno Terme",
+    "IDr":387
+  },
+  {
+    "latitude": 46.06768,
+    "longitude": 11.434404,
+    "name": "Ronchi Valsugana",
+    "IDr":389
+  },
+  {
+    "latitude": 45.89166,
+    "longitude": 10.952569,
+    "name": "Ronzo-Chienis",
+    "IDr":391
+  },
+  {
+    "latitude": 46.420648,
+    "longitude": 11.147291,
+    "name": "Ronzone",
+    "IDr":392
+  },
+  {
+    "latitude": 46.248709,
+    "longitude": 11.168819,
+    "name": "Roverè della Luna",
+    "IDr":394
+  },
+  {
+    "latitude": 45.89096,
+    "longitude": 11.04014,
+    "name": "Rovereto",
+    "IDr":395
+  },
+  {
+    "latitude": 46.418597,
+    "longitude": 11.201892,
+    "name": "Ruffrè-Mendola",
+    "IDr":396
+  },
+  {
+    "latitude": 46.436486,
+    "longitude": 11.029426,
+    "name": "Rumo",
+    "IDr":397
+  },
+  {
+    "latitude": 46.194549,
+    "longitude": 11.942371,
+    "name": "Sagron Mis",
+    "IDr":400
+  },
+  {
+    "latitude": 45.449055,
+    "longitude": 7.843669,
+    "name": "Samone",
+    "IDr":401
+  },
+  {
+    "latitude": 46.076705,
+    "longitude": 10.909271,
+    "name": "San Lorenzo Dorsino",
+    "IDr":129
+  },
+  {
+    "latitude": 46.187865,
+    "longitude": 11.133042,
+    "name": "San Michele all'Adige",
+    "IDr":404
+  },
+  {
+    "latitude": 46.108074,
+    "longitude": 11.302441,
+    "name": "Sant'Orsola Terme",
+    "IDr":406
+  },
+  {
+    "latitude": 46.366191,
+    "longitude": 11.074577,
+    "name": "Sanzeno",
+    "IDr":407
+  },
+  {
+    "latitude": 46.418647,
+    "longitude": 11.141469,
+    "name": "Sarnonico",
+    "IDr":408
+  },
+  {
+    "latitude": 46.064764,
+    "longitude": 11.51052,
+    "name": "Scurelle",
+    "IDr":410
+  },
+  {
+    "latitude": 46.187572,
+    "longitude": 11.261346,
+    "name": "Segonzano",
+    "IDr":412
+  },
+  {
+    "latitude": 0,
+    "longitude": 0,
+    "name": "Sella Giudicarie",
+    "IDr":413
+  },
+  {
+    "latitude": 46.337976,
+    "longitude": 11.115563,
+    "name": "Sfruz",
+    "IDr":414
+  },
+  {
+    "latitude": 46.394776,
+    "longitude": 11.666989,
+    "name": "Soraga",
+    "IDr":418
+  },
+  {
+    "latitude": 46.221389,
+    "longitude": 11.315817,
+    "name": "Sover",
+    "IDr":419
+  },
+  {
+    "latitude": 46.098063,
+    "longitude": 10.733927,
+    "name": "Spiazzo",
+    "IDr":421
+  },
+  {
+    "latitude": 46.217032,
+    "longitude": 11.047589,
+    "name": "Spormaggiore",
+    "IDr":422
+  },
+  {
+    "latitude": 46.237649,
+    "longitude": 11.030604,
+    "name": "Sporminore",
+    "IDr":423
+  },
+  {
+    "latitude": 46.052676,
+    "longitude": 10.853631,
+    "name": "Stenico",
+    "IDr":425
+  },
+  {
+    "latitude": 45.848245,
+    "longitude": 10.579026,
+    "name": "Storo",
+    "IDr":426
+  },
+  {
+    "latitude": 46.120504,
+    "longitude": 10.751748,
+    "name": "Strembo",
+    "IDr":427
+  },
+  {
+    "latitude": 46.070124,
+    "longitude": 11.480232,
+    "name": "Telve",
+    "IDr":431
+  },
+  {
+    "latitude": 46.071547,
+    "longitude": 11.471645,
+    "name": "Telve di Sopra"
+    ,
+    "IDr":432
+  },
+  {
+    "latitude": 46.011934,
+    "longitude": 11.266719,
+    "name": "Tenna",
+    "IDr":433
+  },
+  {
+    "latitude": 45.919549,
+    "longitude": 10.832999,
+    "name": "Tenno",
+    "IDr":434
+  },
+  {
+    "latitude": 45.878177,
+    "longitude": 11.142817,
+    "name": "Terragnolo",
+    "IDr":436
+  },
+  {
+    "latitude": 46.361701,
+    "longitude": 10.926962,
+    "name": "Terzolas",
+    "IDr":438
+  },
+  {
+    "latitude": 46.289569,
+    "longitude": 11.507966,
+    "name": "Tesero",
+    "IDr":439
+  },
+  {
+    "latitude": 46.031342,
+    "longitude": 10.722728,
+    "name": "Tione di Trento",
+    "IDr":442
+  },
+  {
+    "latitude": 46.265924,
+    "longitude": 11.085501,
+    "name": "Ton",
+    "IDr":443
+  },
+  {
+    "latitude": 46.074745,
+    "longitude": 11.451462,
+    "name": "Torcegno",
+    "IDr":446
+  },
+  {
+    "latitude": 45.867298,
+    "longitude": 11.074162,
+    "name": "Trambileno",
+    "IDr":448
+  },
+  {
+    "latitude": 43.838228,
+    "longitude": 11.113085,
+    "name": "Tre Ville",
+    "IDr":450
+  },
+  {
+    "latitude": 46.074779,
+    "longitude": 11.121749,
+    "name": "Trento",
+    "IDr":452
+  },
+  {
+    "latitude": 45.946934,
+    "longitude": 10.620706,
+    "name": "Valdaone",
+    "IDr":496
+  },
+  {
+    "latitude": 46.249466,
+    "longitude": 11.343362,
+    "name": "Valfloriana",
+    "IDr":497
+  },
+  {
+    "latitude": 45.782672,
+    "longitude": 11.117401,
+    "name": "Vallarsa",
+    "IDr":499
+  },
+  {
+    "latitude": 0,
+    "longitude": 0,
+    "name": "Vallelaghi",
+    "IDr":512
+  },
+  {
+    "latitude": 46.305309,
+    "longitude": 11.457909,
+    "name": "Varena",
+    "IDr":516
+  },
+  {
+    "latitude": 46.299766,
+    "longitude": 10.703156,
+    "name": "Vermiglio",
+    "IDr":521
+  },
+  {
+    "latitude": 46.044425,
+    "longitude": 11.277424,
+    "name": "Vignola-Falesina",
+    "IDr":524
+  },
+  {
+    "latitude": 46.420863,
+    "longitude": 11.674878,
+    "name": "Vigo di Fassa",
+    "IDr":525
+  },
+  {
+    "latitude": 45.916076,
+    "longitude": 11.030837,
+    "name": "Villa Lagarina",
+    "IDr":529
+  },
+  {
+    "latitude": 0,
+    "longitude": 0,
+    "name": "Ville d'Anaunia",
+    "IDr":532
+  },
+  {
+    "latitude": 45.917942,
+    "longitude": 11.063927,
+    "name": "Volano",
+    "IDr":534
+  },
+  {
+    "latitude": 46.154268,
+    "longitude": 11.092831,
+    "name": "Zambana",
+    "IDr":535
+  },
+  {
+    "latitude": 46.286564,
+    "longitude": 11.559248,
+    "name": "Ziano di Fiemme",
+    "IDr":537
+  }
+]

@@ -1,3 +1,0 @@
-def predisponiMessaggio(NomeComune,p3):
-    messaggio = "Previsioni per " + NomeComune +":\n\n" + p3[0][0] + ":\n" + p3[0][1] + "\n" + "Tmin:" + str(p3[0][2]) + "°C Tmax:" + str(p3[0][3]) + "°C\n\n" + p3[1][0] + ":\n" + p3[1][1] + "\n" + "Tmin:" + str(p3[1][2]) + "°C Tmax:" + str(p3[1][3]) + "°C\n\n" + p3[2][0] + ":\n" + p3[2][1] + "\n" + "Tmin:" + str(p3[2][2]) + "°C Tmax:" + str(p3[2][3]) + "°C\n\n"
-    return messaggio

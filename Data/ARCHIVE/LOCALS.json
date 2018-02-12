@@ -1,0 +1,43 @@
+{
+    "it":{
+        "settings": {
+            "first_message": "Benvenuto in Meteotrentino Bot!",
+            "first_boot_position": "Per inviarti previsioni meteo corrette vorrei sapere la tua posizione, inviamela tramite GPS o digita qui il nome del comune che vuoi impostare.",
+            "reset_position": "Inviami la tua nuova posizione tramite GPS o digita qui il comune che vuoi impostare.",
+            "position_set": "Tutto ok, ho acquisito la tua posizione!",
+            "position_error": [
+                "Non riesco a capire dove sei, ricordo che questo bot funziona solo in Trentino, in caso di problemi prova con l'impostazione manuale.",
+                "Comune non riconosciuto, ricordo che accetto solo nomi di comuni (non di frazioni)."
+            ],
+            "first_boot_name": "Un'ultima domanda: come ti chiami?",
+            "reset_name":"Vuoi reimpostare il tuo nome? Scrivi qui il nome corretto.",
+            "name_error": "Non riesco a capire il tuo messaggio. Per favore inviami un messaggio di testo.",
+            "first_boot_finish": "Impostazioni completate, puoi cominciare a usare i servizi di Meteotrentino Bot!",
+            "settings_enter":"Queste sono le impostazioni, qui puoi cambiare il tuo nome e la tua località preferita e ricevere informazioni sul programma.",
+            "settings_keyboard":[
+                ["nome"],
+                ["posizione"]
+            ]
+        },
+        "main": "Ciao %s,\ncosa posso fare per te oggi?",
+        "main_keyboard":[
+            ["Previsioni della mia zona"],
+            ["Previsioni di un altra zona"],
+            ["Impostazioni"]
+        ],
+        "back_button":[
+            ["annulla"]
+        ],
+        "send_forecast": {
+            "single_forecast": "%s\n%s\nMinime: %d°C Massime: %d°C",
+            "position_request": "Di che Comune desideri conoscere la previsioni?",
+            "position_error": "Comune non riconosciuto, sei sicuro che quello che mi hai scritto sia il nome di un Comune? (e non di una frazione ad esempio)",
+            "send": "Previsioni per la zona di %s\n"
+        },
+        "admin": {
+            "token_error": "Codice non riconosciuto! Ti rimangono ancora %d tentativi per inviare un codice corretto o il tuo account verrà limitato",
+            "token_approved": "Codice valido! Il tuo account è stato promosso ad admin, ricordati di proteggere il tuo telefono con un PIN per evitare abusi del sistema da parte di terzi.",
+            "account_limited": "Hai sbagliato troppi tentativi, ora il tuo account verrà limitato e non potrai più inserire codici per la promozione ad amministratore. Se tentavi di inserire un codice valido o vuoi richiedere lo sblocco scrivi a emisandri@outlook.it ."
+        }
+    }
+}
