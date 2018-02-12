@@ -1,0 +1,8 @@
+#File di database
+/Dati/Attivi
+
+#File di cache
+*.pyc
+
+#Bozze
+/Bozze/

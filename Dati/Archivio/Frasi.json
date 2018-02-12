@@ -1,7 +1,7 @@
 {
     "impostazioni":{
         "ingresso menu": "Cosa vuoi modificare?",
-        "saluto":"Ciaenvenuto in Meteotrentino Bot!",
+        "saluto":"Benvenuto in Meteotrentino Bot!",
         "posizione":"Per inviarti previsioni meteo corrette vorrei sapere la tua posizione, inviamela tramite GPS o digita qui il tuo comune di residenza",
         "posizione_impostata":"Tutto ok, ho acquisito la tua posizione!",
         "posizione_errore":[
@@ -9,6 +9,7 @@
             "Comune non riconosciuto, ricordo che accetto solo nomi di comuni (non di frazioni)."
         ],
         "nome":"Un'ultima domanda: come ti chiami?",
+        "nome_errore":"Non riesco a capire il tuo messaggio. Per favore inviami un messaggio di testo.",
         "completamento":"Impostazioni completate, puoi cominciare a usare i servizi di Meteotrentino Bot!",
         "cancella account":"%s confermando questa informazione dimenticherò tutte le tue preferenze e se vorrai tornare ad usarmi dovrai configurarmi da capo, sei sicuro di voler procedere?",
         "cancella account ris":[

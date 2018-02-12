@@ -96,6 +96,12 @@
     "IDr":37
   },
   {
+    "latitudine": 46.052805,
+    "longitudine": 11.462606,
+    "nome": "Borgo Valsugana",
+    "IDr":40
+  },
+  {
     "latitudine": 44.113915,
     "longitudine": 8.031912,
     "nome": "Borgo Chiese",
@@ -106,12 +112,6 @@
     "longitudine": 10.749486,
     "nome": "Borgo Lares",
     "IDr":39
-  },
-  {
-    "latitudine": 46.052805,
-    "longitudine": 11.462606,
-    "nome": "Borgo Valsugana",
-    "IDr":40
   },
   {
     "latitudine": 45.817127,

@@ -14,15 +14,19 @@ class Geo:
     def __init__(self,listaPDI):
         self.pdi=predisponi(listaPDI)
 
-    def vicino(self, lat, lon):
-        minD=99999
+    def vicino(self, lat, lon, max):
+        minD=max
         minI=-1
         i=0
         for val in self.pdi:
+            print(distAB(lat,lon,val["latitudine"],val["longitudine"]))
             if distAB(lat,lon,val["latitudine"],val["longitudine"]) < minD:
                 minD=distAB(lat,lon,val["latitudine"],val["longitudine"])
                 minI=i
             i+=1
+        print(minD)
+        if minD==max:
+            minI=-1
         return minI
 
     def cerca(self, ricerca):
