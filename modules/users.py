@@ -16,27 +16,29 @@ class UsersDatabase:
         self.dbU.insert({'TgID': TgID, 'name': name,
                          'municipality': municipality,
                          'session': -2, 'account_status': 0,
-                         'days_from_last_access': 0, 'attempts': 3})
+                         'days_from_last_access': 0, 'attempts': 3,
+                         'local': "it"})
 
     def check_if_exists(self, TgID):
         user = Query()
         return self.dbU.contains(user.TgID == TgID)
 
-
     def prom(self, TgID, token):
         record = Query()
         current = self.dbU.search(user.TgID == TgID)
-        retval=-1
-        if current[0]["attempts"]!=0:
+        retval = -1
+        if current[0]["attempts"] != 0:
             if(self.dbC.contains(record.token == token)):
                 self.dbC.update(delete('token'), token.chiave == token)
                 user = Query()
                 self.dbU.update(set('account_status', 1), user.TgID == TgID)
-                retval=True
+                retval = True
             else:
-                self.dbU.update(set('attempts', current[0]["attempts"]), user.TgID == TgID)
-                if current[0]["attempts"]==1:
-                    self.dbU.update(set('account_status', -1), user.TgID == TgID)                
+                self.dbU.update(
+                    set('attempts', current[0]["attempts"]), user.TgID == TgID)
+                if current[0]["attempts"] == 1:
+                    self.dbU.update(set('account_status', -1),
+                                    user.TgID == TgID)
                 retval = current[0]["attempts"]-1
         return retval
 
@@ -51,8 +53,8 @@ class UsersDatabase:
 
     def get_municipality(self, TgID):
         utente = Query()
-        risultato = self.dbU.search(utente.TgID == TgID)
-        return risultato[0]["municipality"]
+        result = self.dbU.search(utente.TgID == TgID)
+        return result[0]["municipality"]
 
     def set_municipality(self, TgID, new_municipality):
         user = Query()
@@ -61,17 +63,23 @@ class UsersDatabase:
 
     def get_name(self, TgID):
         utente = Query()
-        risultato = self.dbU.search(utente.TgID == TgID)
-        return risultato[0]["name"]
+        result = self.dbU.search(utente.TgID == TgID)
+        return result[0]["name"]
 
     def set_name(self, TgID, new_nome):
         user = Query()
         self.dbU.update(set('name', new_nome), user.TgID == TgID)
 
-    def generate_new_key(self):
+    def get_account_status(self, TgID):
+        utente = Query()
+        result = self.dbU.search(utente.TgID == TgID)
+        return result[0]["account_status"]
+
+    def generaChiave(self):
         record = Query()
         while True:
-            codice = randint(100000, 999999)
-            if(self.dbC.contains(record.token == codice)):
+            code = randint(100000, 999999)
+            if(self.dbC.contains(record.token == code)):
                 break
-        self.dbC.insert({'token': codice})
+        self.dbC.insert({'token': code})
+        return code

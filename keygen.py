@@ -1,7 +1,5 @@
-from moduli.GestioneUtenti import GestioneUtenti
-import os
+from modules.file_url_helper import relative_to_absolute
+from modules.users import UsersDatabase
 
-
-position = os.getcwd()
-gu=GestioneUtenti(position + '\\Dati\\Attivi\\utenti.json', position + '\\Dati\\Attivi\\chiaviMonouso.json')
-print(position + '\\Dati\\Attivi\\chiaviMonouso.json')
+database = UsersDatabase(relative_to_absolute('\\Data\\Users_Database\\users.json'),relative_to_absolute('\\Data\\Users_Database\\tokens.json'))
+print(database.generaChiave)
