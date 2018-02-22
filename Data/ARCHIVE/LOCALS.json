@@ -16,11 +16,13 @@
             "settings_enter":"Queste sono le impostazioni, qui puoi cambiare il tuo nome e la tua località preferita e ricevere informazioni sul programma.",
             "settings_keyboard":[
                 ["nome"],
-                ["posizione"]
+                ["posizione"],
+                ["fonti"]
             ]
         },
         "main": "Ciao %s,\ncosa posso fare per te oggi?",
         "main_keyboard":[
+            ["Bollettino meteo regionale"],
             ["Previsioni della mia zona"],
             ["Previsioni di un altra zona"],
             ["Impostazioni"]
@@ -29,10 +31,11 @@
             ["annulla"]
         ],
         "send_forecast": {
-            "single_forecast": "%s\n%s\nMinime: %d°C Massime: %d°C",
             "position_request": "Di che Comune desideri conoscere la previsioni?",
             "position_error": "Comune non riconosciuto, sei sicuro che quello che mi hai scritto sia il nome di un Comune? (e non di una frazione ad esempio)",
-            "send": "Previsioni per la zona di %s\n"
+            "zone_header": "Previsioni per %s\n\n",
+            "day_header": "%s:\n",
+            "time_slot_forecast": "%s (%s):\n%s\nmin: %d°C\nmax: %d°C\n\n"
         },
         "admin": {
             "token_error": "Codice non riconosciuto! Ti rimangono ancora %d tentativi per inviare un codice corretto o il tuo account verrà limitato",

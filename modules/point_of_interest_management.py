@@ -31,11 +31,11 @@ class PointOfInterest:
             result = -1
         return result
 
-    def search(self, target):
+    def search(self, query):
         i = 0
         retval = -1
         while (i < len(self.poi) and retval==-1):
-            if town_name_compare(target, self.poi[i]["name"]):
+            if town_name_compare(query, self.poi[i]["name"]):
                 retval = self.poi[i]["name"]
             else:
                 i += 1

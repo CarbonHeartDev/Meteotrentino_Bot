@@ -10,7 +10,7 @@ from modules.prepare_json import prepare_json_file
 from modules.file_url_helper import relative_to_absolute
 from modules.point_of_interest_management import PointOfInterest
 from modules.meteotrentino_connection import MeteotrentinoConnection
-from modules.prepare_messages import prepare_text_weather_forecast_message
+from modules.prepare_messages import prepare_zone_forecast
 
 HTTPtoken = sys.argv[1]
 bot = telepot.Bot(HTTPtoken)
@@ -28,7 +28,7 @@ def answer(msg):
     if database.check_if_exists(chat_id):
         if database.get_session(chat_id) == -2:
             if content_type == "text":
-                temp = municipalities.search(msg['text'])
+                temp = source.search_station_from_string(msg['text'])
                 if temp == -1:
                     bot.sendMessage(
                         chat_id, phrases["it"]["settings"]["posizion_error"][1])
@@ -39,7 +39,7 @@ def answer(msg):
                     bot.sendMessage(chat_id, phrases["it"]["settings"]["name"])
                     database.set_session(chat_id, -1)
             if content_type == "location":
-                temp = municipalities.near(msg["latitude"], msg["longitude"], 50)
+                temp = source.search_station_from_GPS(msg["latitude"], msg["longitude"], 50)
                 if temp == -1:
                     bot.sendMessage(
                         chat_id, phrases["it"]["settings"]["position_error"][0])
@@ -61,7 +61,7 @@ def answer(msg):
             bot.sendMessage(chat_id, phrases["it"]["main"] % (
                 database.get_name(chat_id)), reply_markup=make_standard_keyboard(phrases["it"]["main_keyboard"]))
             if msg['text'] == "Previsioni della mia zona":
-                bot.sendMessage(chat_id, prepare_text_weather_forecast_message(database.get_municipality(
+                bot.sendMessage(chat_id, prepare_zone_forecast(database.get_municipality(
                     chat_id), source.three_days_forecast(municipalities.getIDr(database.get_municipality(chat_id)))))
             if msg['text'] == "Previsioni di un altra zona":
                 bot.sendMessage(
@@ -75,7 +75,7 @@ def answer(msg):
                         bot.sendMessage(
                             chat_id, phrases["it"]["settings"]["position_error"][1])
                     else:
-                        bot.sendMessage(chat_id, prepare_text_weather_forecast_message(temp, source.three_days_forecast(
+                        bot.sendMessage(chat_id, prepare_zone_forecast(temp, source.three_days_forecast(
                             municipalities.getIDr(temp))), reply_markup=make_standard_keyboard(phrases["it"]["main_keyboard"]))
                         database.set_session(chat_id, 0)
                 else:
@@ -84,13 +84,13 @@ def answer(msg):
                     database.set_session(chat_id, 0)
             if content_type == "location":
                 print(msg)
-                temp = municipalities.near(
-                    msg["location"]["latitude"], msg["location"]["longitude"], 10000)
+                temp = source.search_station_from_GPS(
+                    msg["location"]["latitude"], msg["location"]["longitude"], 50)
                 if temp == -1:
                     bot.sendMessage(
                         chat_id, phrases["it"]["settings"]["position_error"][0])
                 else:
-                    bot.sendMessage(chat_id, prepare_text_weather_forecast_message(temp, source.three_days_forecast(
+                    bot.sendMessage(chat_id, prepare_zone_forecast(temp, source.three_days_forecast(
                         municipalities.getIDr(temp))), reply_markup=make_standard_keyboard(phrases["it"]["main_keyboard"]))
                     database.set_session(chat_id, 0)
 

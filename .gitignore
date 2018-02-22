@@ -1,5 +1,6 @@
 #File di database
-/Dati/Attivi
+/Data/ARCHIVE/*
+/Data/img_cache/*
 
 #File di cache
 *.pyc

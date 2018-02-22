@@ -75,11 +75,11 @@ class UsersDatabase:
         result = self.dbU.search(utente.TgID == TgID)
         return result[0]["account_status"]
 
+
     def generaChiave(self):
-        record = Query()
+        q=Query()
         while True:
-            code = randint(100000, 999999)
-            if(self.dbC.contains(record.token == code)):
+            codice=randint(100000,999999)
+            if(self.dbC.contains(q.token == codice)):
                 break
-        self.dbC.insert({'token': code})
-        return code
+        self.dbC.insert({'chiave':codice})
